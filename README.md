@@ -33,7 +33,7 @@ node scripts/4-set-claim-condition.js
 Checkout the Etherscan for contract address and change the contract address in `3-config-nft.js`, `4-set-claim-condition.js`.
 
 ```js
-// Replace this contract address with your own deployed Contract
+// Replace this contract address with your own deployed Contrac
 const editionDrop = sdk.getEditionDrop("0x6Ea01b5928c12Af82D7525F4f2D3713d8Ab49495");
 ```
 
