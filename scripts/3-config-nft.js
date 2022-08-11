@@ -1,7 +1,7 @@
 import sdk from "./1-initialize-sdk.js";
 import { readFileSync } from "fs";
 
-const editionDrop = sdk.getEditionDrop("0x6Ea01b5928c12Af82D7525F4f2D3713d8Ab49495");
+const editionDrop = sdk.getEditionDrop("0x0Ffa0BD3eDaB5818f582B2f51EC4AeC5bf9dc579");
 
 (async () => {
   try {
@@ -9,7 +9,7 @@ const editionDrop = sdk.getEditionDrop("0x6Ea01b5928c12Af82D7525F4f2D3713d8Ab494
       {
         name: "Komunitas LBS #1",
         description: "This NFT will give you access to LBS DAO",
-        image: readFileSync("scripts/assets/head-band.png"),
+        image: readFileSync("scripts/assets/lbs.png"),
       }
     ]);
 

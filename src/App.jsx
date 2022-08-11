@@ -8,7 +8,7 @@ const App = () => {
   console.log("Your Address: ", address);
 
   // Initialize our editionDrop contract
-  const editionDrop = useEditionDrop("0x6Ea01b5928c12Af82D7525F4f2D3713d8Ab49495");
+  const editionDrop = useEditionDrop("0x0Ffa0BD3eDaB5818f582B2f51EC4AeC5bf9dc579");
   // State variable for us to know if user has our NFT
   const [hasClaimedNFT, setHasClaimedNFT] = useState(false);
   // isClaiming let us easily keep a loading state
@@ -56,7 +56,7 @@ const App = () => {
   if(!address) {
     return (
       <div className='landing'>
-        <h1>Welcome to LBS DAO</h1>
+        <h1>Welcome to Lombok Blockchain Society DAO</h1>
         <button onClick={connectWithMetamask}
           className="btn-hero">Connect your wallet</button>
       </div>
@@ -75,12 +75,12 @@ const App = () => {
 
   return (
     <div className="mint-nft">
-      <h1>Mint your free 🍪DAO Membership NFT</h1>
+      <h1>Yuk gabung jadi member DAO Lombok Blockchain Society</h1>
       <button
         disabled={isClaiming}
         onClick={mintNft}
       >
-        {isClaiming ? "Minting..." : "Mint your NFT (free)"}
+        {isClaiming ? "Minting..." : "Klaim NFT Membership"}
       </button>
     </div>
   );
