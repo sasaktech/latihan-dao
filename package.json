@@ -4,11 +4,15 @@
   "private": true,
   "dependencies": {
     "@thirdweb-dev/react": "^2.3.0",
-    "@thirdweb-dev/sdk": "^2.3.34",
+    "@thirdweb-dev/sdk": "^2.2.11",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
     "ethers": "^5.6.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0"
+    "react-scripts": "^5.0.0",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
